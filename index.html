@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    
+  <header>
         <div>
           <div>
             <img class="blackHeart" src="images\black-heart.png" alt="black heart">
@@ -25,18 +26,16 @@
             </ul>
           </nav>
         </div>
-      
-        <div>
-            <img src="images\npm-logo.png" alt="npm-logo">
-            <br>
-            <form action="" method="GET">
-                <img src="images/magnifying-glass.png" alt="lupa">
-                <input type="text" id="searchPackage" placeholder="Search package">
-                <input type="button" value="Search">
-                <a href="">Join Log In</a>
+        
+        <div class="wrapper">
+        <img class="nmpLogo" src="images/npm-logo.png" alt="npmLogo">
+        <img class="search-icon" src="images/magnifying-glass.png" />
+        <input class="searchPackages" placeholder="Search package" type="text" >
+        <input class="searchSubmit" type="submit" value="Search">
+        <a class="joinButton" href="#">Join</a>
+        <a class="loginButton" href="#">Log In</a>
+        </div>  
 
-            </form>
-        </div>
       </header>
     
       <section id="up">
